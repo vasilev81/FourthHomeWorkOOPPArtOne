@@ -1,0 +1,5 @@
+C:\programming\ForthHomeWorkOOP\ExerciseOne\bin\Debug\ExerciseOne.exe.config
+C:\programming\ForthHomeWorkOOP\ExerciseOne\bin\Debug\ExerciseOne.exe
+C:\programming\ForthHomeWorkOOP\ExerciseOne\bin\Debug\ExerciseOne.pdb
+C:\programming\ForthHomeWorkOOP\ExerciseOne\obj\Debug\ExerciseOne.exe
+C:\programming\ForthHomeWorkOOP\ExerciseOne\obj\Debug\ExerciseOne.pdb

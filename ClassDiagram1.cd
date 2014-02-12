@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExerciseOne.School">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Classes" Type="ExerciseOne.SchoolClass">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.443" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAABAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>School.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Classes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExerciseOne.SchoolClass">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Disciplines" Type="ExerciseOne.Discipline">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.35" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAEQAAAAEAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>SchoolClass.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Disciplines" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExerciseOne.Discipline">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAIAAAASAAAAEEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Discipline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExerciseOne.Person">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExerciseOne.Teacher">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <AssociationLine Name="Discipline" Type="ExerciseOne.Discipline">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.1" Y="0.425" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Discipline" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExerciseOne.Student">
+    <Position X="9" Y="4" Width="1.5" />
+    <AssociationLine Name="SchoolClass" Type="ExerciseOne.SchoolClass">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-4.327" Y="3.164" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAACAAAAAAIAAAACAAAAAAAAAIAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SchoolClass" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExerciseOne.Comment">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
